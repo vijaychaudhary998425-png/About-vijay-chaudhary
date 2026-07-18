@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Chaudhary | AI Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <nav class="navbar glass">
+            <a href="#home" class="logo">Vijay<span>.AI</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="ripple"><i class="fas fa-sun"></i></button>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container flex-row">
+            <div class="home-content fade-in">
+                <h3>Hello, It's Me</h3>
+                <h1>Vijay Chaudhary</h1>
+                <h3>And I'm a <span id="typing-text"></span><span class="cursor">|</span></h3>
+                <p>Passionate Artificial Intelligence student crafting intelligent solutions and modern web applications. Welcome to my digital workspace.</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary ripple">Hire Me</a>
+                    <a href="#resume" class="btn btn-secondary ripple">Download Resume</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/vijaychaudhary998425-png" class="glass-icon ripple"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vijay-chaudhary-555764380/" class="glass-icon ripple"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/smart_vijay_112?igsh=MXc3aHA1Y2J1cDV2dQ==" class="glass-icon ripple"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:vijaychaudhary998425@gmail.com" class="glass-icon ripple"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="home-image fade-in">
+                <div class="img-box glass">
+                    <img src="vijay15.jpeg" alt="Vijay Chaudhary">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title fade-in">About <span>Me</span></h2>
+            <div class="about-content glass fade-in">
+                <div class="about-text">
+                    <h3>Career Objective</h3>
+                    <p>To leverage my robust academic background in Computer Science and Artificial Intelligence to solve complex, real-world problems. I strive to continuously grow as a developer and AI researcher, building solutions that are both innovative and user-centric.</p>
+                    <div class="personal-info">
+                        <div class="info-item"><i class="fas fa-user"></i> <strong>Name:</strong> Vijay Chaudhary</div>
+                        <div class="info-item"><i class="fas fa-graduation-cap"></i> <strong>Degree:</strong> B.Tech CSE (AI)</div>
+                        <div class="info-item"><i class="fas fa-university"></i> <strong>University:</strong> [BBD University]</div>
+                        <div class="info-item"><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> [Lucknow, Uttar pradesh]</div>
+                        <div class="info-item"><i class="fas fa-envelope"></i> <strong>Email:</strong>vijaychaudhary998425@gmail.com</div>
+                        <div class="info-item"><i class="fas fa-language"></i> <strong>Languages:</strong> English, Hindi</div>
+                    </div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box glass">
+                        <h3 class="counter" data-target="15">0</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-box glass">
+                        <h3 class="counter" data-target="5">0</h3>
+                        <p>Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <!-- Skill items -->
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>HTML</span><span>95%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>CSS</span><span>90%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>JavaScript</span><span>85%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>Python</span><span>90%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>C Programming</span><span>80%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>Artificial Intelligence</span><span>85%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>Data Structures</span><span>75%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+                </div>
+                <div class="skill-card glass fade-in">
+                    <div class="skill-info"><span>Git & GitHub</span><span>90%</span></div>
+                    <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span>Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>B.Tech CSE (Artificial Intelligence)</h3>
+                        <h4>[Your University Name]</h4>
+                        <span class="year">2021 - 2025 (Expected)</span>
+                        <p>Specializing in Machine Learning, Deep Learning, and core CS fundamentals. Consistent top performer with active participation in tech clubs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>Higher Secondary Education</h3>
+                        <h4>[Your School Name]</h4>
+                        <span class="year">2019 - 2021</span>
+                        <p>Physics, Chemistry, and Mathematics. Graduated with honors and exceptional marks in analytical subjects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Latest <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img"><img src="projectimg.jpeg" alt="Project 1"></div>
+                    <div class="project-content">
+                        <h3>AI Chatbot Assistant</h3>
+                        <p>An intelligent chatbot built utilizing natural language processing techniques to assist users with daily tasks.</p>
+                        <div class="tech-stack"><span>Python</span><span>NLP</span><span>Flask</span></div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img"><img src="projectimg.jpeg" alt="Project 2"></div>
+                    <div class="project-content">
+                        <h3>Image Recognition System</h3>
+                        <p>A deep learning model capable of identifying multiple objects within real-time video streams.</p>
+                        <div class="tech-stack"><span>TensorFlow</span><span>OpenCV</span></div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img"><img src="projectimg.jpeg" alt="Project 3"></div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Premium glassmorphism portfolio utilizing advanced HTML, CSS, and Vanilla JavaScript with custom animations.</p>
+                        <div class="tech-stack"><span>HTML/CSS</span><span>JS</span></div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img"><img src="projectimg.jpeg" alt="Project 4"></div>
+                    <div class="project-content">
+                        <h3>Predictive Analytics Dashboard</h3>
+                        <p>Data visualization dashboard that predicts market trends using historical datasets and machine learning.</p>
+                        <div class="tech-stack"><span>Python</span><span>Pandas</span></div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img"><img src="projectimg.jpeg" alt="Project 5"></div>
+                    <div class="project-content">
+                        <h3>Pathfinding Visualizer</h3>
+                        <p>Interactive web application to visualize complex data structures and pathfinding algorithms (Dijkstra, A*).</p>
+                        <div class="tech-stack"><span>JavaScript</span><span>Algorithms</span></div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img"><img src="projectimg.jpeg" alt="Project 6"></div>
+                    <div class="project-content">
+                        <h3>Weather Application</h3>
+                        <p>Dynamic weather app pulling real-time data from RESTful APIs with geolocation support.</p>
+                        <div class="tech-stack"><span>API</span><span>JS</span><span>CSS</span></div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span>Certificates</span></h2>
+            <div class="cert-grid">
+                <div class="cert-card glass fade-in">
+                    <img src="cf1.jpg" alt="Certificate 1">
+                    <div class="cert-overlay"><h4>be10x</h4></div>
+                </div>
+                <div class="cert-card glass fade-in">
+                    <img src="cf2.jpg" alt="Certificate 2">
+                    <div class="cert-overlay"><h4>hp</h4></div>
+                </div>
+                <div class="cert-card glass fade-in">
+                    <img src="cf3.jpg" alt="Certificate 3">
+                    <div class="cert-overlay"><h4>marketing</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container flex-column fade-in">
+            <h2 class="section-title">My <span>Resume</span></h2>
+            <div class="resume-card glass">
+                <i class="fas fa-file-pdf resume-icon"></i>
+                <h3>Vijay Chaudhary - CV</h3>
+                <p>Updated: October 2023 | Format: PDF | Size: 1.2MB</p>
+                <a href="#" class="btn btn-primary ripple" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact <span>Me</span></h2>
+            <div class="contact-wrapper glass fade-in">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out for collaborations, freelance projects, or just to say hi!</p>
+                    <div class="info-item"><i class="fas fa-phone"></i> +91 9984251087</div>
+                    <div class="info-item"><i class="fas fa-envelope"></i> vijaychaudhary998425@gmail.com</div>
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> India</div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label>Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="subject" required placeholder=" ">
+                        <label>Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label>Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary ripple">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="form-msg"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content glass">
+            <div class="footer-logo">Vijay<span>.AI</span></div>
+            <div class="footer-social">
+                <a href="https://github.com/vijaychaudhary998425-png"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vijay-chaudhary-555764380/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/smart_vijay_112?igsh=MXc3aHA1Y2J1cDV2dQ=="><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 Vijay Chaudhary. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="glass ripple"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
